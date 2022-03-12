@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
         <header className="flex justify-between items-center py-4 md:py-8">
           <Link href="/">
             <a className="inline-flex items-center text-black-800 text-2xl md:text-3xl font-bold gap-2.5" aria-label="logo">
-              Miguels NFT Store
+              Miguel’s NFT Store
             </a>
           </Link>
 
