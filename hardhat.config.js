@@ -4,14 +4,14 @@ const infuraId = JSON.parse(fs.readFileSync(".infuraid").toString().trim() || ""
 const mnemonic = JSON.parse(fs.readFileSync(".secret").toString().trim() || "");
 
 module.exports = {
-  defaultNetwork: "mumbai",
+  defaultNetwork: "rinkeby",
   networks: {
     // hardhat: {
     //   chainId: 1337
     // },
-    mumbai: {
+    rinkeby: {
       // Infura
-      url: `https://polygon-mumbai.infura.io/v3/${infuraId}`,
+      url: `https://rinkeby.infura.io/v3/${infuraId}`,
       //url: "https://rpc-mumbai.matic.today",
       accounts: [`${mnemonic}`],
     },
