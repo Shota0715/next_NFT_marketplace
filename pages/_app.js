@@ -34,6 +34,11 @@ function MyApp({ Component, pageProps }) {
                 出品中
               </a>
             </Link>
+            <Link href="/tutorial">
+              <a className="text-white hover:text-indigo-500 active:text-indigo-700 text-lg font-semibold transition duration-100">
+                はじめに
+              </a>
+            </Link>
           </nav>
         </header>
       </div>
@@ -58,6 +63,11 @@ function MyApp({ Component, pageProps }) {
             <Link href="/dashboard">
               <a className="mr-6 text-white font-semibold">
                 出品中
+              </a>
+            </Link>
+            <Link href="/tutorial">
+              <a className="mr-6 text-white font-semibold">
+                はじめに
               </a>
             </Link>
           </div>
