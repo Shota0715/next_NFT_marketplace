@@ -1,11 +1,22 @@
 /* pages/_app.js */
 import '../styles/globals.css'
 import Link from 'next/link'
+import Head from 'next/head'
 
 function MyApp({ Component, pageProps }) {
   return (
     <div>
       <div className="max-w-screen-2xl px-4 md:px-8 mx-auto bg-gray-800">
+      <Head>
+        <title>Miguel’s NFT market</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
+        <link rel="manifest" href="/favicons/site.webmanifest" />
+        <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#5bbad5" />
+        <meta name="msapplication-TileColor" content="#0042a1" />
+        <meta name="theme-color" content="#ffffff" />
+      </Head>
         <header className="flex justify-between items-center py-4 md:py-8">
           <Link href="/">
             <a className="inline-flex items-center text-white text-2xl md:text-3xl font-bold gap-2.5" aria-label="logo">
