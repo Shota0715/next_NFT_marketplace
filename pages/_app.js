@@ -85,6 +85,15 @@ function MyApp({ Component, pageProps }) {
         </nav>
       </div>
       <Component {...pageProps} />
+      <div className="visible md:invisible">
+        <div className="btn fixed bottom-0 right-2.5">
+          <Link href="https://metamask.app.link/dapp/next-nft-marketplace.vercel.app/">
+            <a className="btn_connect">
+              <span><span>METAMASK</span>CONNECT</span>
+            </a>
+          </Link>
+        </div>
+      </div>
     </div>
   )
 }
